@@ -5,7 +5,7 @@ import signal, sys
 import http.server
 import socketserver
 
-host = 'localhost'
+host = ''
 
 #prende come porta un valore passato in input da terminale, o mette come default la porta 8080.
 if sys.argv[1:]:
